@@ -18,10 +18,17 @@
             android:theme="@style/Theme.Lab14Moviles">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".WorkActivity"
+            android:exported="true"
+            android:label="Work View"
+            android:theme="@style/Theme.Lab14Moviles">
+        </activity>
+
         <receiver
             android:name=".SimpleWidget"
             android:exported="true">
